@@ -77,7 +77,7 @@ function Register()
                     <input  type ="text" className="form-control" name="username" placeholder="User Name" onChange={(event) =>{
                 setUserName(event.target.value);
                 }} required/>
-                <label>Phone Number </label>
+                <label>Phone No</label>
                 <input className="form-control" type ="text" className="form-control" name="phonenumber" placeholder="Phone Number" onChange={(event) =>{
                 setPhoneNumber(event.target.value);
                 }} required/>
